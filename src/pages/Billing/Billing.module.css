@@ -1,0 +1,78 @@
+.cart {
+  padding: 200px;
+  padding-top: 100px;
+}
+
+.billing {
+  display: grid;
+  grid-template-columns: auto auto;
+  @apply
+  mt-10 
+}
+
+.resume{
+  width: 70%;
+  @apply
+  bg-gray-100 
+  pl-10 
+  pr-10 
+  pt-5 
+  pb-5
+  ml-20
+}
+
+.process{
+  height: 45px;
+  width: 100%;
+  background-color: #DB4444;
+  color: white;
+  padding: 0px 30px;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.process:hover{
+  opacity: 0.8;
+}
+
+.resume_details{
+  display: grid;
+  grid-template-columns: 450px auto;  
+  @apply
+  mt-4
+}
+
+.show{
+  border: 1px solid rgb(143, 143, 143);
+  height: 30px;
+}
+
+.hidden{
+  display: none;
+}
+
+.input__payment{
+  width: 150px;
+  @apply
+  px-4 
+  py-3 
+  rounded-lg 
+  bg-gray-200 
+  mt-2 
+  border 
+  focus:border-black
+  focus:bg-white 
+  focus:outline-none
+  mr-4
+}
+
+.input_radius{
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  @apply
+  mr-2
+}
+
+

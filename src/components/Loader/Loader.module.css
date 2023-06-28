@@ -1,0 +1,8 @@
+.loading {
+  z-index: 999;  
+}
+
+.img{
+  height: 100px;
+  margin-top: 100px;
+}

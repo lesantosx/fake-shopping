@@ -1,0 +1,25 @@
+.cards{
+  @apply
+  grid 
+  gap-4 
+  grid-cols-4
+}
+
+.title {
+  text-align: left;
+  font-size: 30px;
+  @apply
+  font-bold
+  pb-10
+}
+
+.btn__view{
+  border-radius: 5px;
+  width: 200px;
+  @apply
+  mt-10
+  bg-red-500
+  p-4
+  text-white
+  font-bold
+}

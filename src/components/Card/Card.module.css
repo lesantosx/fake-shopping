@@ -1,0 +1,108 @@
+.card {
+  height: auto;
+  @apply
+  w-80 
+  bg-white 
+  shadow 
+  rounded
+  mt-4
+}
+
+.btn_cart{
+  background-color: #DB4444;
+  @apply
+  py-2 
+  px-4
+  text-white 
+  rounded
+  disabled:opacity-50 
+  mt-4 
+  w-full 
+  flex items-center 
+  justify-center
+}
+
+.btn_cart:hover{
+  background-color: #dd6363;
+}
+
+.header_card{
+  background-repeat: no-repeat;
+  @apply
+  h-48 
+  w-full 
+  bg-white
+  flex 
+  flex-col 
+  justify-between 
+  p-4 
+  bg-contain 
+  bg-center
+}
+
+.btn_remove {
+  @apply
+  bg-white 
+  rounded-l 
+  border 
+  text-gray-600 
+  hover:bg-gray-100 
+  active:bg-gray-200 
+  disabled:opacity-50 
+  inline-flex 
+  items-center 
+  px-2 
+  py-1 
+  border-r 
+  border-gray-200
+}
+
+.btn_add {
+  @apply
+  bg-white 
+  rounded-r 
+  border 
+  text-gray-600 
+  hover:bg-gray-100 
+  active:bg-gray-200 
+  disabled:opacity-50 
+  inline-flex 
+  items-center 
+  px-2 
+  py-1 
+  border-r 
+  border-gray-200
+}
+
+.qty {
+  @apply
+  bg-gray-100 
+  border-t 
+  border-b 
+  border-gray-100 
+  text-gray-600 
+  hover:bg-gray-100 
+  inline-flex 
+  items-center 
+  px-4 
+  py-1 
+  select-none
+}
+
+.title_product{
+  max-width: 30ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  @apply
+  text-gray-800 
+  text-center 
+  mt-1
+}
+
+.fav_icon{
+  border-radius: 100px;
+  cursor: pointer;
+  @apply
+  bg-white
+}

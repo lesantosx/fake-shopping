@@ -1,0 +1,60 @@
+.nav {
+  @apply
+  flex
+  justify-between
+  bg-white
+  z-10
+  border-b
+}
+
+.link {
+  @apply
+  p-5  
+  text-black
+}
+
+.link:hover {
+  @apply
+  underline 
+}
+
+
+.search {
+  background-color: #F5F5F5;
+  @apply
+  relative 
+  flex 
+  items-center 
+  w-full 
+  h-9
+  rounded-lg 
+  focus-within:shadow-lg 
+  overflow-hidden
+}
+
+.search__input {
+  background-color: #F5F5F5;
+  @apply
+  h-full 
+  w-full 
+  outline-none 
+  text-sm 
+  text-gray-700 
+  pr-2
+}
+
+.logo {
+  width: 25rem;;
+  @apply
+  mr-auto 
+  flex-shrink-0
+}
+
+.icons {
+  @apply
+  ml-2 
+  lg:ml-4 
+  relative 
+  inline-block 
+  cursor-pointer
+}

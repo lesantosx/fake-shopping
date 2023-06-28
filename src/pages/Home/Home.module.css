@@ -1,0 +1,26 @@
+.home {
+  padding: 200px;
+  padding-top: 20px;
+}
+
+
+.banner_title {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.bloco {
+  width: 20px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #DB4444;
+}
+
+.subtitle{
+  color: #DB4444;
+  font-size: 20px;
+  @apply
+  font-bold
+  mt-2
+  ml-5
+}

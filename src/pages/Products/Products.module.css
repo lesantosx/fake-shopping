@@ -1,0 +1,12 @@
+.products {
+  padding: 100px;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.bread {
+  padding: 0px 100px;
+  padding-top: 50px;
+}
+

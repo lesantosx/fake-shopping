@@ -1,0 +1,109 @@
+.cart {
+  padding: 200px;
+  padding-top: 100px;
+}
+
+.head{
+  display: grid;
+  grid-template-columns: 450px 200px 200px 200px;
+  padding: 20px;
+  @apply
+  bg-white 
+  shadow 
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 450px 200px 200px 200px auto;
+  padding: 20px;
+  margin-top: 20px;
+  @apply
+  bg-white 
+  shadow 
+}
+
+.product__name{
+  display: flex;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  @apply
+  font-normal
+}
+
+.products__img{
+  height: 50px;
+}
+
+.product__price{
+
+}
+
+.product__qty{
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  padding: 4px;
+  @apply
+  bg-gray-200
+}
+
+.coupon__btn{
+  color: #DB4444;
+}
+
+.coupon__btn:hover{
+  opacity: 0.8;
+}
+
+.resume{
+  width: 100%;
+  @apply
+  bg-gray-100 
+  pl-10 
+  pr-10 
+  pt-5 
+  pb-5
+}
+
+.process{
+  height: 45px;
+  width: 100%;
+  background-color: #DB4444;
+  color: white;
+  padding: 0px 30px;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.process:hover{
+  opacity: 0.8;
+}
+
+.resume_details{
+  display: grid;
+  grid-template-columns: 280px auto;  
+  @apply
+  mt-4
+}
+
+.show{
+  border: 1px solid rgb(143, 143, 143);
+  height: 30px;
+}
+
+.hidden{
+  display: none;
+}
+
+.delete_btn{
+  border-radius: 100px;
+  padding: 3px;
+  cursor: pointer;
+  @apply
+  bg-gray-200
+}
+
+
+
