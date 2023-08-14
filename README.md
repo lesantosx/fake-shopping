@@ -7,7 +7,7 @@ This is a fake e-commerce project, for you to buy and pay for fake things.
 ### Next features
 <div>
   <input type="checkbox" id="favorite" name="favorite" />
-  <label for="scales">Favorite item action</label>
+  <label for="favorite">Favorite item action</label>
 </div>
 
 ### :computer: Technologies
