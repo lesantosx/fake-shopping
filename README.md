@@ -2,7 +2,13 @@
 This is a fake e-commerce project, for you to buy and pay for fake things.
 <br />
 
-![Badge in developmen](http://img.shields.io/static/v1?label=STATUS&message=finished&color=GREEN&style=for-the-badge) 
+![Badge in developmen](http://img.shields.io/static/v1?label=STATUS&message=developing&color=GREEN&style=for-the-badge) 
+
+### Next features
+<div>
+  <input type="checkbox" id="favorite" name="favorite" />
+  <label for="scales">Favorite item action</label>
+</div>
 
 ### :computer: Technologies
 
