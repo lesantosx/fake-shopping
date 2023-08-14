@@ -21,4 +21,5 @@ This is a fake e-commerce project for you to buy and pay for fake things.
 :wrench: <b>BACK-END</b>
 - <a href="https://fakestoreapi.com/docs">Fake Store API</a> 
 
-
+<h1>:art: Prototype</h1>
+:pushpin: <a href="">Figma</a>
