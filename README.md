@@ -1,8 +1,9 @@
 ## Fake e-commerce
-This is a fake e-commerce project for you to buy and pay for fake things.
-<br />
 
 ![Badge in developmen](http://img.shields.io/static/v1?label=STATUS&message=developing&color=GREEN&style=for-the-badge) 
+
+This is a fake e-commerce project for you to buy and pay for fake things.
+<br />
 
 #### Next features
 - Favorite item action
